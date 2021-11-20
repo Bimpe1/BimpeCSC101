@@ -1,0 +1,27 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\begin{document}
+	\begin{figure}[h!]
+		\centering
+		\begin{subfigure}[b]{0.2\linewidth}
+			\includegraphics[width=\linewidth]{orange.jpg}
+			\caption{Orange}
+		\end{subfigure}
+		\begin{subfigure}[b]{0.2\linewidth}
+			\includegraphics[width=\linewidth]{orange.jpg}
+			\caption{More orange.}
+		\end{subfigure}
+	\begin{subfigure}[b]{0.2\linewidth}
+		\includegraphics[width=\linewidth]{orange.jpg}
+		\caption{Tasty orange.}
+		\end{subfigure}
+	\begin{subfigure}[b]{0.5\linewidth}
+		\includegraphics[width=\linewidth]{orange.jpg}
+		\caption{Too much orange.}
+	\end{subfigure}
+		
+		\caption{The same orange. Multiple times.}
+		\label{fig:orange}
+	\end{figure}
+\end{document}
